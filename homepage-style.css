@@ -176,17 +176,21 @@ h1 { text-align: center; color: #1a237e; font-size: 28px; margin-bottom: 30px; f
 .card li a:hover { color: #764ba2; text-decoration: underline; }
 
 .card.sp-step-highlight {
-    background: #d1fae5 !important;
-    box-shadow: 0 0 0 5px rgba(16, 185, 129, 0.45), 0 14px 30px rgba(16, 185, 129, 0.35) !important;
-    border-left: 8px solid #10b981 !important;
+    background: #eef7f1 !important;
+    box-shadow: 0 0 0 3px rgba(52, 148, 106, 0.25), 0 14px 30px rgba(52, 148, 106, 0.18) !important;
+    border-left: 6px solid #6fae8c !important;
     transform: scale(1.02) !important;
     animation: sp-highlight-pulse 0.9s ease-in-out 2;
 }
 
-.card.sp-step-highlight .hd, .card.sp-step-highlight .bd, .card.sp-step-highlight li { background: #d1fae5 !important; }
+.card.sp-step-highlight .hd,
+.card.sp-step-highlight .bd,
+.card.sp-step-highlight li {
+    background: #eef7f1 !important;
+}
 
 @keyframes sp-highlight-pulse {
-    0% { box-shadow: 0 0 0 5px rgba(16, 185, 129, 0.45), 0 14px 30px rgba(16, 185, 129, 0.35); }
-    50% { box-shadow: 0 0 0 10px rgba(16, 185, 129, 0.25), 0 18px 36px rgba(16, 185, 129, 0.45); }
-    100% { box-shadow: 0 0 0 5px rgba(16, 185, 129, 0.45), 0 14px 30px rgba(16, 185, 129, 0.35); }
+    0% { box-shadow: 0 0 0 3px rgba(52, 148, 106, 0.25), 0 14px 30px rgba(52, 148, 106, 0.18); }
+    50% { box-shadow: 0 0 0 6px rgba(52, 148, 106, 0.15), 0 18px 36px rgba(52, 148, 106, 0.25); }
+    100% { box-shadow: 0 0 0 3px rgba(52, 148, 106, 0.25), 0 14px 30px rgba(52, 148, 106, 0.18); }
 }
