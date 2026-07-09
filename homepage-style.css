@@ -176,7 +176,7 @@ h1 { text-align: center; color: #1a237e; font-size: 28px; margin-bottom: 30px; f
 .card li a:hover { color: #764ba2; text-decoration: underline; }
 
 .card.sp-step-highlight {
-    background: #eef7f1 !important;
+    background: #f7fffa !important;
     box-shadow: 0 0 0 3px rgba(52, 148, 106, 0.25), 0 14px 30px rgba(52, 148, 106, 0.18) !important;
     border-left: 6px solid #6fae8c !important;
     transform: scale(1.02) !important;
@@ -186,7 +186,7 @@ h1 { text-align: center; color: #1a237e; font-size: 28px; margin-bottom: 30px; f
 .card.sp-step-highlight .hd,
 .card.sp-step-highlight .bd,
 .card.sp-step-highlight li {
-    background: #eef7f1 !important;
+    background: #f7fffa !important;
 }
 
 @keyframes sp-highlight-pulse {
